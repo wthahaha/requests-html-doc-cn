@@ -1,7 +1,7 @@
 ## 安装
 
 ```python
-$ pipenv install requests-html
+$ pip install requests-html
 ```
 只支持python3.6及以上
 
