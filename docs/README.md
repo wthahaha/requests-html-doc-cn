@@ -601,12 +601,13 @@ resolve_redirects(resp, req, stream=False, timeout=None, verify=True, cert=None,
 
 ### ****send(request, \*\*kwargs)****
 
-&ensp;&ensp;&ensp; 发送`预请求对象`。
+&ensp;&ensp;&ensp; 发送`预请求对象`。必要时，本方法可以替换`Proxy-Authorization`头。
 
-必要时，本方法可以替换`Proxy-Authorization`头。
 &ensp;&ensp;&ensp; ****返回类型****：
 
 &ensp;&ensp;&ensp; &ensp;&ensp;&ensp; `	requests.Response`
+
+
 
 
 
